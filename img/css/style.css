@@ -1,0 +1,237 @@
+*{
+	padding: 0px;
+	margin: 0px;
+} 
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+} 
+h1,h2,h3,h4,h5,h6{
+	font-family: sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+    /********************** 
+Header-Section Code start
+***********************/
+.header-section{
+	width: 100%;
+	padding: 10px 0px 0px;
+	background: url(../img/baner.png) center top no-repeat;
+	background-size: cover; 
+}
+.header-section .bg-light{
+	background: transparent !important;
+}
+.header-section .navbar-light .navbar-nav .active>.nav-link{
+	color:#fff;
+	background: url(../img/br.png) center bottom no-repeat;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0px 0px 0px 15px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover{
+	color:#fff;
+	background: url(../img/br.png) center bottom no-repeat;
+}
+.banner{
+	width: 100%;
+	padding: 80px 0px;
+}
+.banner-inner{
+	width: 100%;
+	padding: 80px 0px;
+}
+.banner-inner h4{
+     font-size: 14px;
+     line-height: 28px;
+     color: #115d8b;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-weight: 600;
+}
+.banner-inner h2{
+	 font-size: 30px;
+     line-height: 36px;
+     color: #fff;
+     letter-spacing: 3px;
+     margin-bottom: 15px;
+     font-weight: 600;
+}
+.banner-inner p{
+	font-size: 14px;
+    line-height: 20px;
+    color: #616162;
+    padding-top: 10px;
+}
+.btn-inner{
+	width: 100%;
+	padding: 80px 0px;
+}
+.btn-inner .btn-info{
+    padding: 10px 20px;
+    margin-right: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 2px;
+    background: #0099cc;
+    border: 1px solid #0099cc;
+    color: #fff;
+}
+.btn-inner .btn-info:hover{
+    background: transparent;
+    border: 1px solid;
+    color: #0099cc;
+    transition: 1s; 
+}
+.btn-inner .btn-light{
+	padding: 10px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 2px;
+    background: transparent;
+    border: 1px solid #999;
+    color: #fff;
+}
+.btn-inner .btn-light:hover{
+	background: transparent;
+    border: 1px solid;
+    color: #0099cc;
+    transition: 1s; 
+}
+
+
+
+.feature{
+    width: 100%;
+	padding: 80px 0px;
+}
+.feature .title{
+    width: 100%;
+    padding: 0px 0px 60px;
+    text-align: center;
+}
+.feature .title h4{
+     font-size: 14px;
+     line-height: 28px;
+     color: #115d8b;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     font-weight: 600;
+}
+.feature .title h2{
+	 font-size: 30px;
+     line-height: 36px;
+     color: #000;
+     letter-spacing: 1px;
+     margin-bottom: 15px;
+     font-weight: 600
+}
+  .inner-feature {
+    width: 100%;
+    padding: 0px 0px;
+    text-align: center;
+}
+.feature .title .circel h4{
+     font-size: 22px;
+     line-height: 32px;
+     color: #999999;
+     font-weight: 600;
+     padding: 15px 0px;
+}
+
+.about-long{
+   width: 100%;
+   padding: 80px;
+   border-top: 1px solid #eee;
+} 
+.inner-img{
+ 	width: 100%;
+}
+.inner-about{
+	width: 100%;
+	margin: 30px;
+}
+.inner-about .title{
+    width: 100%;
+    padding: 0px 0px 15px;
+    text-align: left;
+}
+.inner-about .title h4{
+    font-size: 14px;
+    line-height: 28px;
+    color: #115d8b;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.inner-about .title h2{
+	font-size: 30px;
+    line-height: 36px;
+    color: #000;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.inner-about p{
+	font-size: 14px;
+    line-height: 20px;
+    color: #999999;
+}
+.inner-about ul{
+    width: 100%;
+    margin-top: 20px;
+}
+.inner-about ul li{
+	list-style: none;
+	display: block;
+	margin: 5px 0px;
+	font-size: 13px;
+	line-height: 26px;
+	font-weight: 400;
+}
+.inner-about ul li img{
+	margin-right: 10px;
+}
+
+
+.about-sort {
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 90px 0px;
+    margin-top: 50px;
+}
+.about-sort .title{
+    width: 100%;
+    padding: 0px 0px 15px;
+    text-align: left;
+}
+.about-sort .title h4{
+    font-size: 14px;
+    line-height: 28px;
+    color: #115d8b;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.about-sort .title h2{
+	font-size: 30px;
+    line-height: 40px;
+    color: #000;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.about-sort p{
+	font-size: 14px;
+    line-height: 20px;
+    color: #999999;
+}
